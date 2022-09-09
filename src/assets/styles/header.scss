@@ -1,0 +1,28 @@
+@import "variables"; 
+
+.navbar-main{
+    min-height: 60px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+
+    .todo-add-button{
+        cursor :pointer;
+        transition: all 0.2s ease-out;
+        color: $icon-color;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        border: 1px solid transparent;
+        justify-content: center;
+    }
+    .todo-add-button:hover{
+        -webkit-box-shadow: 7px 7px 16px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 16px -7px rgba(0,0,0,0.75);
+        box-shadow: 7px 7px 16px -7px rgba(0,0,0,0.75);
+        border: 1px solid $background-color;
+        border-radius: 5px;
+        color: $icon-color-transition;
+    }
+}
