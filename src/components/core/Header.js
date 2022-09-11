@@ -12,7 +12,7 @@ function Header(props) {
             <div className="container-fluid">
                 <div className="row d-flex justify-content-between">
                     <div className="col-6 col-md-4 px-5 d-flex align-items-center">
-                        sdsdsbbbbbbd
+                        <h5><b>TODO APP</b></h5>
                     </div>
                     <div className="d-flex justify-content-end col-6 col-md-4 px-5">
                         <div className="d-flex align-items-center"> Merhaba, Büşra &nbsp;</div>
