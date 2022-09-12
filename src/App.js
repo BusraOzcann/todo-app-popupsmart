@@ -1,16 +1,13 @@
-import { Provider } from "react-redux";
-import store from "./store";
-
 import Header from "./components/core/Header"
+import Home from "./components/Home"
 import './assets/styles/App.scss';
 
 function App() {
   return (
-    <Provider store={store}>
       <div className="App">
         <Header/>
+        <Home/>
       </div>
-    </Provider>
   );
 }
 
